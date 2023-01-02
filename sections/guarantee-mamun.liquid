@@ -24,11 +24,6 @@
       "type": "text",
       "id": "section_padding",
       "label": "Section Padding"
-    },
-    {
-      "type": "color_picker",
-      "id": "section_bg",
-      "label": "Background"
     }
   ],
   "blocks": [
@@ -71,13 +66,8 @@
 {% endschema %}
 
 {% stylesheet %}
-  {% assign sec_padding = section.settings.section_padding %}
-  {% assign sec_bg = section.settings.section_bg %}
-
-
   .entry_guarantee{
-    padding: {{sec_padding}} 0;
-    Background: {{sec_bg}};
+    padding: {{section.settings.section_padding}} 0;
   }
   .single_guarantee{
     text-align: center;
