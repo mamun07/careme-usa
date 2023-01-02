@@ -425,8 +425,15 @@
         "total_btn_bg_gradient_hover": ""
       }
     },
+    "sma_reviews_section_auto": {
+      "type": "reviews-importer-product",
+      "settings": {
+        "lai_product": ""
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "display_product_block": true,
         "product_block_container": "container",
@@ -480,6 +487,7 @@
     },
     "product-recently-viewed": {
       "type": "product-recently-viewed",
+      "disabled": true,
       "settings": {
         "display_product_recently_viewed": true,
         "product_recently_viewed_container": "container",
@@ -533,12 +541,6 @@
         "border_color_card": "#f0f1f4"
       }
     },
-    "sma_reviews_section_auto": {
-      "type": "reviews-importer-product",
-      "settings": {
-        "lai_product": ""
-      }
-    },
     "d3b36c48-27bb-4b0e-b779-1ef01c26149f": {
       "type": "guarantee-mamun",
       "blocks": {
@@ -562,9 +564,9 @@
   },
   "order": [
     "main",
+    "sma_reviews_section_auto",
     "product-recommendations",
     "product-recently-viewed",
-    "sma_reviews_section_auto",
     "d3b36c48-27bb-4b0e-b779-1ef01c26149f"
   ]
 }
