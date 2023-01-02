@@ -4,7 +4,7 @@
       {% for block in section.blocks %}
         <div class="col-6 col-md-3">
           <div class="single_guarantee">
-            {{ block.settings.guarantee_img | image_url: '100X100' | image_tag }}
+            {{ block.settings.guarantee_img | image_url: width: 100 | image_tag }}
             <h3>{{ block.settings.guarantee_title }}</h3>
             <p>{{ block.settings.guarantee_des }}</p>
           </div>
