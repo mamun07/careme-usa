@@ -71,13 +71,10 @@
 {% endschema %}
 
 {% stylesheet %}
-  {% assign sec_padding = section.settings.section_padding %}
-  {% assign sec_bg = section.settings.section_bg %}
-
+  assign bg_color = section.settings.section_bg
 
   .entry_guarantee{
-    padding: {{section.settings.section_padding}} 0;
-    Background: {{section.settings.section_bg}};
+    Background: {{bg_color}};
   }
   .single_guarantee{
     text-align: center;
