@@ -1,5 +1,7 @@
-<div class="container">
-  <h2>Guarantee</h2>
+<div class="entry_guarantee">
+  <div class="container">
+    <h2>Guarantee</h2>
+  </div>
 </div>
 
 {% schema %}
@@ -23,6 +25,16 @@
                    "type": "text",
                    "id": "guarantee_title",
                    "label": "Guarantee Title"
+                },
+                {
+                  "type": "text",
+                  "id": "guarantee_des",
+                  "label": "Guarantee Descriptions"
+                },
+                {
+                  "type": "imagepicker",
+                  "id": "guarantee_img",
+                  "label": "Guarantee Image"
                 }
             ]
         }
@@ -42,6 +54,9 @@
 {% endschema %}
 
 {% stylesheet %}
+.entry_guarantee{
+  padding: {{ section.settings.section_padding }}
+}
 {% endstylesheet %}
 
 {% javascript %}
