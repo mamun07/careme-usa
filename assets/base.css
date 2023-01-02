@@ -13,6 +13,7 @@ html {
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent;
+  text-decoration: unset;
 }
 
 .no-js:not(html) {
@@ -47,6 +48,7 @@ body {
   opacity: 1;
   visibility: visible;
   overflow-x: hidden;
+  text-decoration: unset;
 }
 
 button {
