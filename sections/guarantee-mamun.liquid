@@ -3,7 +3,11 @@
     <div class="row">
       {% for block in section.blocks %}
         <div class="col-3">
-          {{ block.settings.guarantee_img | image_url: width: 100 | image_tag }}
+            <div class="single_guarantee">
+              {{ block.settings.guarantee_img | image_url: width: 100 | image_tag }}
+              <h3>{{ block.settings.guarantee_title }}</h3>
+              <p>{{ block.settings.guarantee_des }}</p>
+            </div>
         </div>
       {% endfor %}
     </div>
@@ -19,7 +23,7 @@
     {
       "type": "text",
       "id": "section_padding",
-      "label": "Padding"
+      "label": "Section Padding"
     }
   ],
   "blocks": [
@@ -61,7 +65,10 @@
 
 {% stylesheet %}
   .entry_guarantee{
-    padding: 80px 0;
+    padding: {{section.settings.section_padding}} 0;
+  }
+  .single_guarantee{
+    text-aling: center;
   }
 {% endstylesheet %}
 
