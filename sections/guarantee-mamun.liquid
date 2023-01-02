@@ -5,58 +5,58 @@
 </div>
 
 {% schema %}
-  {
-    "name": "Guarantee",    
-    "class": "home-guarantee-section-main",
-    "max_blocks": 8,
-    "settings": [
+{
+  "name": "Guarantee",
+  "class": "home-guarantee-section-main",
+  "max_blocks": 8,
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_padding",
+      "label": "Padding"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Guarantee",
+      "settings": [
         {
-            "type": "text",
-            "id": "section_padding",
-            "label": "Padding"
-        }
-    ],
-    "blocks": [
+          "type": "text",
+          "id": "guarantee_title",
+          "label": "Guarantee Title"
+        },
         {
-            "type": "image",
-            "name": "Guarantee",
-            "settings": [ 
-                {
-                   "type": "text",
-                   "id": "guarantee_title",
-                   "label": "Guarantee Title"
-                },
-                {
-                  "type": "text",
-                  "id": "guarantee_des",
-                  "label": "Guarantee Descriptions"
-                },
-                {
-                  "type": "imagepicker",
-                  "id": "guarantee_img",
-                  "label": "Guarantee Image"
-                }
-            ]
+          "type": "text",
+          "id": "guarantee_des",
+          "label": "Guarantee Descriptions"
+        },
+        {
+          "type": "imagepicker",
+          "id": "guarantee_img",
+          "label": "Guarantee Image"
         }
-    ],
-    "presets":[
-      {
-        "name": "Guarantee",
-        "category": "Guarantee",
-        "blocks": [
-          {
-            "type": "image"
-          }
-        ]
-      }
-    ]        
-  }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Guarantee",
+      "category": "Guarantee",
+      "blocks": [
+        {
+          "type": "image"
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
 
 {% stylesheet %}
-.entry_guarantee{
-  padding: {{ section.settings.section_padding }}
-}
+  .entry_guarantee{
+    padding: 80px 0;
+  }
 {% endstylesheet %}
 
 {% javascript %}
