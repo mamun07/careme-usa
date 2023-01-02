@@ -1,6 +1,12 @@
 <div class="entry_guarantee">
   <div class="container">
-    <h2>Guarantee Title</h2>
+    <div class="row">
+      {% for block in section.blocks %}
+        <div class="col-3">
+          {{ block.settings.guarantee_img | image_url: width: 100 | image_tag }}
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
 
@@ -30,6 +36,11 @@
           "type": "text",
           "id": "guarantee_des",
           "label": "Descriptions"
+        },
+        {
+          "type": "image_picker",
+          "id": "guarantee_img",
+          "label": "Image"
         }
       ]
     }
