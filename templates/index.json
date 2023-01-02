@@ -406,24 +406,24 @@
         "f2d082ca-74f3-4751-b648-c00665b4f00c": {
           "type": "image",
           "settings": {
-            "guarantee_title": "POSITIVE REVIEWS 100,000+",
-            "guarantee_des": "POSITIVE REVIEWS 100,000+",
+            "guarantee_title": "FREE U.S. SHIPPING",
+            "guarantee_des": "over $49.00",
             "guarantee_img": "shopify:\/\/shop_images\/expressage.png"
           }
         },
         "8001fa76-067d-4a1b-a0f7-66dcb523b54a": {
           "type": "image",
           "settings": {
-            "guarantee_title": "POSITIVE REVIEWS 100,000+",
-            "guarantee_des": "POSITIVE REVIEWS 100,000+",
+            "guarantee_title": "RETURN & EXCHANGE",
+            "guarantee_des": "within 90 days",
             "guarantee_img": "shopify:\/\/shop_images\/changingOrRefunding.png"
           }
         },
         "75423fa8-7869-4afb-9ede-4c1b1fe7d618": {
           "type": "image",
           "settings": {
-            "guarantee_title": "POSITIVE REVIEWS 100,000+",
-            "guarantee_des": "POSITIVE REVIEWS 100,000+",
+            "guarantee_title": "PAYMENT",
+            "guarantee_des": "100% Secure",
             "guarantee_img": "shopify:\/\/shop_images\/paymentSecurity.png"
           }
         }
