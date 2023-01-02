@@ -435,7 +435,8 @@
         "75423fa8-7869-4afb-9ede-4c1b1fe7d618"
       ],
       "settings": {
-        "section_padding": "80px"
+        "section_padding": "80px",
+        "section_bg": "#a3a3a3"
       }
     }
   },
