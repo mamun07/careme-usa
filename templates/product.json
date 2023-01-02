@@ -542,8 +542,8 @@
           "type": "shopify:\/\/apps\/ali-reviews-product-reviews\/blocks\/widget-box\/bf2eea72-0400-4db1-8908-44b7418f9a88",
           "settings": {
             "name": "Review Box 1",
-            "vertical_alignment": "2",
-            "rating_color": "#1f1f1f",
+            "vertical_alignment": "5",
+            "rating_color": "#FFAA00",
             "section_color": "#ffffff",
             "primary_text_color": "#1f1f1f"
           }
