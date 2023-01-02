@@ -71,9 +71,12 @@
 }
 {% endschema %}
 
+
+
 {% stylesheet %}
+  {% assign bg_color =section.settings.section_bg %}
   .entry_guarantee{
-    Background: {{section.settings.section_bg}};
+    Background: {{bg_color}};
   }
   .single_guarantee{
     text-align: center;
