@@ -536,7 +536,6 @@
     "sma_reviews_section_auto": {
       "type": "reviews-importer-product",
       "settings": {
-        "lai_product": ""
       }
     }
   },
