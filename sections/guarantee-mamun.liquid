@@ -1,0 +1,48 @@
+<div>
+  <h2>Guarantee</h2>
+</div>
+
+{% schema %}
+  {
+    "name": "Guarantee",    
+    "class": "home-guarantee-section-main",
+    "max_blocks": 8,
+    "settings": [
+        {
+            "type": "text",
+            "id": "section_padding",
+            "label": "Padding"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "image",
+            "name": "Guarantee",
+            "settings": [ 
+                {
+                   "type": "text",
+                   "id": "guarantee_title",
+                   "label": "Guarantee Title"
+                }
+            ]
+        }
+    ],
+    "presets":[
+      {
+        "name": "Guarantee",
+        "category": "Guarantee",
+        "blocks": [
+          {
+            "type": "image"
+          }
+        ]
+      }
+    ]        
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
