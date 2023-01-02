@@ -2,12 +2,12 @@
   <div class="container">
     <div class="row">
       {% for block in section.blocks %}
-        <div class="col-3">
-            <div class="single_guarantee">
-              {{ block.settings.guarantee_img | image_url: width: 100 | image_tag }}
-              <h3>{{ block.settings.guarantee_title }}</h3>
-              <p>{{ block.settings.guarantee_des }}</p>
-            </div>
+        <div class="col-md-3">
+          <div class="single_guarantee">
+            {{ block.settings.guarantee_img | image_url: width: 100 | image_tag }}
+            <h3>{{ block.settings.guarantee_title }}</h3>
+            <p>{{ block.settings.guarantee_des }}</p>
+          </div>
         </div>
       {% endfor %}
     </div>
@@ -34,12 +34,14 @@
         {
           "type": "text",
           "id": "guarantee_title",
-          "label": "Title"
+          "label": "Title",
+          "default": "Title"
         },
         {
           "type": "text",
           "id": "guarantee_des",
-          "label": "Descriptions"
+          "label": "Descriptions",
+          "default": "Descriptions"
         },
         {
           "type": "image_picker",
