@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       {% for block in section.blocks %}
-        <div class="col">
+        <div class="col-6 col-md-3">
           <div class="single_guarantee">
             {{ block.settings.guarantee_img | image_url: width: 100 | image_tag }}
             <h3>{{ block.settings.guarantee_title }}</h3>
