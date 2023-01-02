@@ -9,3 +9,7 @@
 // Please use only CSS to style the layout.
 //
 // =============================================================================*/
+
+a {
+  text-decoration: unset;
+}
