@@ -26,9 +26,10 @@
       "label": "Section Padding"
     },
     {
-      "type": "color",
+      "type": "color_background",
       "id": "section_bg",
-      "label": "Background"
+      "label": "Background",
+      "default": "linear-gradient(#ffffff, #000000)"
     }
   ],
   "blocks": [
@@ -71,10 +72,8 @@
 {% endschema %}
 
 {% stylesheet %}
-  assign bg_color = section.settings.section_bg
-
   .entry_guarantee{
-    Background: {{bg_color}};
+    Background: {{section.settings.section_bg}};
   }
   .single_guarantee{
     text-align: center;
