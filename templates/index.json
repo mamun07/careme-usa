@@ -398,45 +398,15 @@
         "template--16007639892141__3b534dc2-94b9-4c1b-9208-6efc49622f62-16726538115dd5e0dd-0": {
           "type": "image",
           "settings": {
-            "guarantee_title": "POSITIVE REVIEWS 100,000+",
-            "guarantee_des": "",
-            "guarantee_img": "shopify:\/\/shop_images\/reputably.png"
-          }
-        },
-        "f2d082ca-74f3-4751-b648-c00665b4f00c": {
-          "type": "image",
-          "settings": {
-            "guarantee_title": "100% FREE SHIPPING",
-            "guarantee_des": "",
-            "guarantee_img": "shopify:\/\/shop_images\/expressage.png"
-          }
-        },
-        "8001fa76-067d-4a1b-a0f7-66dcb523b54a": {
-          "type": "image",
-          "settings": {
-            "guarantee_title": "RETURN & EXCHANGE",
-            "guarantee_des": "",
-            "guarantee_img": "shopify:\/\/shop_images\/changingOrRefunding.png"
-          }
-        },
-        "75423fa8-7869-4afb-9ede-4c1b1fe7d618": {
-          "type": "image",
-          "settings": {
-            "guarantee_title": "100% SECURE PAYMENT",
-            "guarantee_des": "",
-            "guarantee_img": "shopify:\/\/shop_images\/paymentSecurity.png"
+            "guarantee_title": ""
           }
         }
       },
       "block_order": [
-        "template--16007639892141__3b534dc2-94b9-4c1b-9208-6efc49622f62-16726538115dd5e0dd-0",
-        "f2d082ca-74f3-4751-b648-c00665b4f00c",
-        "8001fa76-067d-4a1b-a0f7-66dcb523b54a",
-        "75423fa8-7869-4afb-9ede-4c1b1fe7d618"
+        "template--16007639892141__3b534dc2-94b9-4c1b-9208-6efc49622f62-16726538115dd5e0dd-0"
       ],
       "settings": {
-        "section_padding": "80px",
-        "section_bg": "#eee"
+        "section_padding": ""
       }
     }
   },

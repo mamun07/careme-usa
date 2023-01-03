@@ -427,7 +427,6 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "display_product_block": true,
         "product_block_container": "container",
@@ -481,7 +480,6 @@
     },
     "product-recently-viewed": {
       "type": "product-recently-viewed",
-      "disabled": true,
       "settings": {
         "display_product_recently_viewed": true,
         "product_recently_viewed_container": "container",
@@ -535,45 +533,10 @@
         "border_color_card": "#f0f1f4"
       }
     },
-    "alireviews-section-1672663540": {
-      "type": "apps",
-      "blocks": {
-        "alireviews-block-1672663540": {
-          "type": "shopify:\/\/apps\/ali-reviews-product-reviews\/blocks\/widget-box\/bf2eea72-0400-4db1-8908-44b7418f9a88",
-          "settings": {
-            "name": "Review Box 1",
-            "vertical_alignment": "5",
-            "rating_color": "#FFAA00",
-            "section_color": "#ffffff",
-            "primary_text_color": "#1f1f1f"
-          }
-        }
-      },
-      "block_order": [
-        "alireviews-block-1672663540"
-      ],
+    "sma_reviews_section_auto": {
+      "type": "reviews-importer-product",
       "settings": {
-        "include_margins": true
-      }
-    },
-    "d3b36c48-27bb-4b0e-b779-1ef01c26149f": {
-      "type": "guarantee-mamun",
-      "blocks": {
-        "template--16008385855661__d3b36c48-27bb-4b0e-b779-1ef01c26149f-1672663102fcbc34d3-0": {
-          "type": "image",
-          "settings": {
-            "guarantee_title": "30 DAYS MONEY BACK GUARANTEE",
-            "guarantee_des": "If you feel dissatisfied with what you've worn, you can return your product with a \"30 DAYS MONEY BACK GUARANTEE\" policy.To avail this offer, simply send us an email to support@careme.co. To know more, click here Return Policy.",
-            "guarantee_img": "shopify:\/\/shop_images\/5a0ad9ac5a997e1c2cea1106.png"
-          }
-        }
-      },
-      "block_order": [
-        "template--16008385855661__d3b36c48-27bb-4b0e-b779-1ef01c26149f-1672663102fcbc34d3-0"
-      ],
-      "settings": {
-        "section_padding": "",
-        "section_bg": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)"
+        "lai_product": ""
       }
     }
   },
@@ -581,7 +544,6 @@
     "main",
     "product-recommendations",
     "product-recently-viewed",
-    "alireviews-section-1672663540",
-    "d3b36c48-27bb-4b0e-b779-1ef01c26149f"
+    "sma_reviews_section_auto"
   ]
 }
